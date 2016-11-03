@@ -8,4 +8,4 @@ Font used: https://www.google.com/fonts/specimen/Montserrat
 
 Treehouse Front-End Techdegree project 8
 
-My work: 
+My work: HTML, CSS, Accessibility

@@ -25,6 +25,7 @@ select,
 button {
 	background: #98949e;
 	border: 3px solid #2d2b30;
+	outline: none;
 }
 
 input:focus,
