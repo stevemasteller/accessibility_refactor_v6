@@ -2,6 +2,7 @@
 
 pre {
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
 }
 
 .heading{
@@ -13,4 +14,22 @@ pre {
   width: 40px;
   height: 0%;
   padding: 10px;
+}
+
+table {
+  margin-left: 4em;
+}
+
+table caption {
+  margin-bottom: .5em;
+}
+
+table caption,
+th {
+  font-weight: 600;
+}
+
+th,
+td {
+  min-width: 10em;
 }

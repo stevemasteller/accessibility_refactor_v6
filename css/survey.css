@@ -6,7 +6,7 @@
 }
 
 form {
-  margin: 0 auto;
+  margin: 1.5em auto;
   text-align: left;
   display: inline-block;
 }
@@ -19,6 +19,50 @@ form {
 
 }
 
+input,
+textarea,
+select,
+button {
+	background: #98949e;
+	border: 3px solid #2d2b30;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+	background: white;
+	border: 3px solid #781125;
+	transition: border-color .6s, background-color .6s;
+	outline: none;
+}
+
+/* blur */
+input:not(:focus), 
+select:not(:focus),
+textarea:not(:focus) {
+	background: #98949e;
+	border-color: #2d2b30;
+	transition: border-color .6s, background-color .6s;
+}
+
+.block-label {
+	display: block;
+	margin: 1.5em 0 1em 0;
+}
+
+legend {
+  font-weight: 600;
+  text-align: left;
+}
+
+#name {
+	margin-top: 1.5em;
+}
+
+button {
+	margin-bottom: 1.5em;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {

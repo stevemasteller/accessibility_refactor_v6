@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <div class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="#">Tour</a></li>
@@ -18,33 +18,58 @@
       </ul>
     </div>
 
-    <header>
+    <header role="banner">
+		<h1>ACCESSIBLE FROG</h1>
+		<h2>we make awesome music</h2>
     </header>
 
-    <main >
+    <main role="main">
       <div class="card">
         <div class="flex">
         <!-- The following images are decorative for this project. -->
         <!-- Please see the project instructions for information on how to handle these. -->
-          <img class="pick" src= "img/guitar_pick.png" alt="This is a guitar pick">
+          <img class="pick" src= "img/guitar_pick.png" alt="">
           <h3 class= "heading">Tour Dates</h3>
-          <img class="pick" src= "img/guitar_pick.png" alt="This is a guitar pick also">
+          <img class="pick" src= "img/guitar_pick.png" alt="">
           <pre>
-                Date                             Venue                             Location
-                Mar 10 - 12                 The Warfield                  San Francisco, CA
-                Mar 20 - 23                 Pepsi Center                  Denver, CO
-                Apr 2 - 4                      Beacon Theatre             New York City, NY
-                Apr 10                         Paramount Theatre      Seattle, WA
+			<table>
+			  <caption>Tour Dates, Venues, and Cities</caption>
+			  <tr>
+			    <th scope="col">Date</th>
+			    <th scope="col">Venue</th>
+			    <th scope="col">Location</th>
+			  </tr>
+			  <tr>
+				<td>Mar 10 - 12</td>
+				<td>The Warfield</td>
+				<td>San Francisco, CA</td>
+			  </tr>
+			  <tr>
+				<td>Mar 20 - 23</td>
+				<td>Pepsi Center</td>
+				<td>Denver, CO</td>
+			  </tr>
+			  <tr>
+				<td>Apr 2 - 4</td>
+				<td>Beacon Theatre</td>
+				<td>New York City, NY</td>
+			  </tr>
+			  <tr>
+				<td>Apr 10</td>
+				<td>Paramount Theatre</td>
+				<td>Seattle, WA</td>
+			  </tr>
+			</table>
           </pre>
         </div>
       </div>
     </main>
     
-    <footer>
+    <footer role="contentinfo">
       <ul>
-        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png"></a></li>
-        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png"></a></li>
-        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png"></a></li>
+        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="Twitter Logo"></a></li>
+        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="YouTube Logo"></a></li>
+        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="Spotify Logo"></a></li>
       </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>
